@@ -1,0 +1,11 @@
+# My Outlook to Software Development
+
+Hey all, I am from ECE branch, and got into learn programming so it whould help me get placed. So started learning python in my 5th sem and the resource I used was https://www.programiz.com/python-programming (programiz website) and this helped me a lot and as of now I learnt till the concept of OOPs but even though I still need to brush up few concepts.
+
+Then switched to Java, as it was preferred by companyes and the resource used for this is https://youtube.com/playlist?list=PL9gnSGHSqcnr\_DxHsP7AW9ftq0AtAyYqJ (Kunal's dsa bootcamp) and at the same time it had Devops bootcamp but I was not much cared about it and learnt Java up to some extent and understood that learning syntax is not a big deal it is about finding logic to solve a problem, so used to solve problems and was able to solve medium level problems and could able to understand the code by seeing the solution for higher level problems and at that point I understand competative programming is not my cup of tea. I felt putting the same efforts into some other domain it whould benifit me a lot.
+
+I heard from few seniors and others that knowing git whould be helpfull so learnt it from the same Kunal's Devops bootcamp and by this time I have finished my 7th sem. Obviously now want to explore Devops and I am very much confident that i will finish the full devops bootcamp (Kunal's Devops bootcamp) As of now I have finished till docker and wan't get into k8s and need to revise previous topics. I am very much sure that this will go very well unlike competative programming.
+
+Other domains that I have intrest is cloud computing, cyber security, backend i.e SQL. But one step at a time, let me first finish Devops as of now I have got so much of interest and queries to learn it.
+
+Prior to my 5th sem that was during covid I just got video suggestion of web development course in YouTube and then learnt html, css and little bit of Java script and for the practice sake I made few projects, you can check it out here https://github.com/DhanushGowda26 and after all these I landed in my 5th sem learning python and got to know not to dive into Java script, you will know why if you have come here by reading all through also not to forget that I am an Electronics and Communication Engineer.
