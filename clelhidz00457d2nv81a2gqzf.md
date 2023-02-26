@@ -1,6 +1,6 @@
 # Introduction to Kubernetes
 
-### Overview of Kubernetes?
+### Overview of Kubernetes
 
 Kubernetes (K8s) is an open-source container orchestration system that was originally developed by Google and is now maintained by the Cloud Native Computing Foundation (CNCF). K8s is designed to automate the deployment, scaling, and management of containerized applications, and it has become the de facto standard for managing containers in production environments.
 
