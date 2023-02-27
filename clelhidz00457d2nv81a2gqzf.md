@@ -14,7 +14,7 @@ Since then, K8s has become the most popular container orchestration system, with
 
 ### Cluster
 
-A cluster in Kubernetes, a cluster is a set of physical or virtual machines, also known as nodes, that are connected together and run containerized applications. It consists of a control plane and worker nodes. The control plane is responsible for managing and coordinating the worker nodes, which are responsible for running the actual workloads.
+A cluster in Kubernetes, a cluster is a set of physical or virtual machines, also known as nodes, that are connected together to run containerized applications. It consists of a control plane and worker nodes. The control plane is responsible for managing and coordinating the worker nodes, which are responsible for running the actual workloads.
 
 ### Cluster Components
 
