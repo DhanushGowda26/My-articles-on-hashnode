@@ -268,7 +268,7 @@ spec:
 
 Here, we're using the `valueFrom` field to get the value of `password` from the Secret.
 
-### Kubectl:
+### Kubectl
 
 kubectl is a command-line interface tool for Kubernetes that allows you to interact with a Kubernetes cluster. It is not a terminal itself, but rather a program that you can run in a terminal window to execute commands against a Kubernetes cluster.
 
@@ -313,7 +313,7 @@ Here are a few examples of how you can use kubectl:
 
 [Install Kubectl](https://kubernetes.io/docs/tasks/tools/)
 
-### Minikube:
+### Minikube
 
 Minikube is a tool that enables you to run a single-node Kubernetes cluster on your local machine. It creates a virtual machine that runs a lightweight version of the Kubernetes control plane and allows you to deploy and test Kubernetes applications without needing access to a full-blown production Kubernetes cluster.
 
