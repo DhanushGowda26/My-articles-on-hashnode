@@ -313,6 +313,8 @@ Here are a few examples of how you can use kubectl:
 
 [Install Kubectl](https://kubernetes.io/docs/tasks/tools/)
 
+[Kubernetes Cheat Sheet](https://spacelift.io/blog/kubernetes-cheat-sheet) credits: **Mariusz Michalowski**
+
 ### Minikube
 
 Minikube is a tool that enables you to run a single-node Kubernetes cluster on your local machine. It creates a virtual machine that runs a lightweight version of the Kubernetes control plane and allows you to deploy and test Kubernetes applications without needing access to a full-blown production Kubernetes cluster.
