@@ -1,4 +1,14 @@
-# An extended version to know more of Docker
+---
+title: "An extended version to know more of Docker"
+seoTitle: "Gearing up Docker to an intermediate level"
+seoDescription: "Docker knowledge blog  up to an intermediate level where yoy will learn lot of docker concepts like its architecure, networking, volume and lot more."
+datePublished: Sat Feb 25 2023 03:30:39 GMT+0000 (Coordinated Universal Time)
+cuid: clejemwga02we2knv2d5v1ce8
+slug: an-extended-version-to-know-more-of-docker
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1677246664140/5b8e94fe-f76f-430e-97dd-32efe4629155.png
+tags: docker, development, developer, devops
+
+---
 
 ### **Docker Architecture**
 
@@ -130,7 +140,7 @@ This command starts a new container called "myothercontainer" and mounts the "my
 
 ### Docker Security
 
-Docker provides several security features that can be used to help protect your containers and their contents. These include security profiles for containers, which allow you to restrict the resources that a container can access; the ability to run containers as non-root users, which helps to reduce the impact of security vulnerabilities; and Docker Content Trust, which allows you to sign and verify the integrity of Docker images
+Docker provides several security features that can be used to help protect your containers and their contents. These include security profiles for containers, which allow you to restrict the resources that a container can access the ability to run containers as non-root users, which helps to reduce the impact of security vulnerabilities and Docker Content Trust, which allows you to sign and verify the integrity of Docker images.
 
 ### Docker Swarm
 
