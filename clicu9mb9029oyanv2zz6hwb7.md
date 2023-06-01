@@ -5,6 +5,7 @@ seoDescription: "A Drop down menu which is responsive built using html.css and j
 datePublished: Thu Jun 01 2023 07:52:39 GMT+0000 (Coordinated Universal Time)
 cuid: clicu9mb9029oyanv2zz6hwb7
 slug: responsive-drop-down
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1685606425649/7c0c4916-28dc-464a-bb3f-1473f5040180.png
 tags: javascript, web-development, webdev, frontend-development
 
 ---
