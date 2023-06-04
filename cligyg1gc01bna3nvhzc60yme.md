@@ -95,7 +95,8 @@ In the first example, `length` is a method associated with the `numbers` array o
 
 The second example utilizes the `toUpperCase` method of the `message` string object. It converts the string to uppercase letters when called as `message.toUpperCase()`.
 
-Constructors: A constructor is a special type of function used to create and initialize objects from a class blueprint. It sets up the initial state of the object by defining properties and assigning values.
+1. Constructors: A constructor is a special type of function used to create and initialize objects from a class blueprint. It sets up the initial state of the object by defining properties and assigning values.
+    
 
 ```javascript
 // Example 1: Person constructor
