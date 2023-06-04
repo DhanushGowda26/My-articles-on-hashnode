@@ -53,8 +53,9 @@ By using classes, we can easily create objects with consistent properties and be
 
 ## Functions v/s Methods v/s Constructors
 
-1. Functions: A function in JavaScript is a reusable block of code that performs a specific task. It allows you to organize and modularize your code by encapsulating a set of instructions. Functions can be invoked and executed multiple times throughout your code.
-    
+### Functions
+
+A function in JavaScript is a reusable block of code that performs a specific task. It allows you to organize and modularize your code by encapsulating a set of instructions. Functions can be invoked and executed multiple times throughout your code.
 
 ```javascript
 // Example 1: Addition function
@@ -76,8 +77,9 @@ In the first example, the `add` function takes two parameters `a` and `b` and re
 
 The second example defines a `greet` function that takes a `name` parameter and logs a greeting message. By calling `greet("John")`, it outputs "Hello, John!".
 
-1. Methods: A method is a function that is associated with an object or a class. It operates on the data or properties of that object and can be called using the object's name, followed by a dot notation.
-    
+### Methods
+
+A method is a function that is associated with an object or a class. It operates on the data or properties of that object and can be called using the object's name, followed by a dot notation.
 
 ```javascript
 // Example 1: Array method
@@ -95,8 +97,9 @@ In the first example, `length` is a method associated with the `numbers` array o
 
 The second example utilizes the `toUpperCase` method of the `message` string object. It converts the string to uppercase letters when called as `message.toUpperCase()`.
 
-1. Constructors: A constructor is a special type of function used to create and initialize objects from a class blueprint. It sets up the initial state of the object by defining properties and assigning values.
-    
+### Constructors
+
+A constructor is a special type of function used to create and initialize objects from a class blueprint. It sets up the initial state of the object by defining properties and assigning values.
 
 ```javascript
 // Example 1: Person constructor
