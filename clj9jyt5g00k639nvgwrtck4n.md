@@ -10,7 +10,7 @@ tags: networking, cisco, computer-networking
 
 ---
 
-## **Network**
+## **jNetwork**
 
 A Network is a collection of interconnected devices such as computers, servers, routers, and switches. These devices are linked together to facilitate communication and data exchange. Networks can range from small local networks within homes or offices to large-scale networks like the Internet
 
@@ -315,7 +315,7 @@ Let's consider a real-life example of how the TCP/IP model is used in browsing a
     
     * The browser initiates an HTTP request to the web server to fetch the webpage.
         
-    * PDU: HTTP request
+    * PDU: HTTP requests
         
 2. Transport Layer: The HTTP request is passed to the transport layer, which adds the necessary protocol information.
     
