@@ -1,5 +1,5 @@
 ---
-title: "Understanding Docker and Container Lifecycle"
+title: "Understanding Container Architecture"
 datePublished: Fri Jan 31 2025 18:30:44 GMT+0000 (Coordinated Universal Time)
 cuid: cm6l3nu7t000o09l2gq6o1v7s
 slug: understanding-docker-and-container-lifecycle
