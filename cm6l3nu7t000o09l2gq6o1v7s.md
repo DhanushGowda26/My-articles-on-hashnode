@@ -1,8 +1,8 @@
 ---
-title: "Understanding Docker Daemon, Docker Socket, and Container Lifecycle"
+title: "Understanding Docker and Container Lifecycle"
 datePublished: Fri Jan 31 2025 18:30:44 GMT+0000 (Coordinated Universal Time)
 cuid: cm6l3nu7t000o09l2gq6o1v7s
-slug: understanding-docker-daemon-docker-socket-and-container-lifecycle
+slug: understanding-docker-and-container-lifecycle
 tags: docker, devops, containers, containerization
 
 ---
@@ -93,6 +93,8 @@ While experimenting with Docker, I also explored how **containerd**, **container
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1738340152505/090d83e2-68e4-448a-85e2-a29d36508266.png align="center")
 
 Even if `containerd` is stopped, any existing containers continue running because they are managed by `containerd-shim`, which keeps the container alive. However, you won't be able to start new containers through Docker (`dockerd`), as it relies on `containerd` to create and manage containers. Instead, you can interact directly with `containerd` using the `ctr` CLI, which allows you to manage containers even when `dockerd` is not functional. Alternatives for `dockerd` are podman, rkt, etc
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1738383763209/35cd8b0d-c495-42b5-b966-e45e254b770a.png align="center")
 
 ### Conclusion
 
