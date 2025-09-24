@@ -228,7 +228,6 @@ When you run `pg_dump`, you can specify format using the `-F` flag:
     
 * **pg\_dump -Fc** = custom format, supports **parallel restore** with `pg_restore -j`.
     
-
 * **Plain SQL format (default, no** `-F` option)
     
     * Output is just SQL commands.
@@ -238,11 +237,13 @@ When you run `pg_dump`, you can specify format using the `-F` flag:
     * Example:
         
         ```bash
-        pg_dump -U postgres myappdb > myappdb.sql
-        psql -U postgres -f myappdb.sql
+        pg_dump -U postgres -C myappdb > myappdb.sql
+        createdb -U postgres myappdb
+        psql -U postgres -d myappdb -f myappdb.sql
         ```
         
-* **Custom format (**`-Fc`)
+    
+    **Custom format (**`-Fc`)
     
     * Output is a compressed, binary archive.
         
