@@ -145,18 +145,6 @@ gunzip -c /backups/all_databases_$(date +%F).sql.gz | psql -U postgres
         So `-Fc` = **Custom format** dump.  
         (Other formats are `-Fp` = plain SQL, `-Ft` = tar)
         
-    
-    ### ⚡ Comparison (gzip vs -Fc)
-    
-    | Feature | `pg_dump | gzip` (Plain SQL) | `pg_dump -Fc` (Custom) |  
-    |---------------------------|----------------------------------|------------------------|  
-    | Compression | Yes (gzip external) | Yes (built-in, optimized) |  
-    | Restore tool | `psql` | `pg_restore` |  
-    | Selective restore | ❌ No | ✅ Yes (tables, schemas, functions) |  
-    | Parallel restore | ❌ No | ✅ Yes (`-j`) |  
-    | Human-readable | ✅ Yes | ❌ No (binary) |  
-    | Speed (large DBs) | Moderate (gzip + single-thread) | Faster (parallel + optimized) |
-    
 
 ### 🔹 What is Parallel Restore?
 
